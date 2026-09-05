@@ -127,14 +127,6 @@ Horizontal directions follow the environment’s layout direction, including rig
 Nonpositive radius/length and nonfinite parameters disable the effect. Toggling `isEnabled` preserves the view hierarchy.
 SwiftUI layer effects may not render embedded UIKit/AppKit views correctly.
 
-## Validation
-
-Open `Package.swift` in Xcode, choose the package scheme and **My Mac**, then run **Product → Test**. Also preview the effect in a consuming app on each target platform; the direction unit tests do not validate GPU rendering.
-
-The source was statically reviewed; an Apple SDK build and visual Metal validation have not been run.
-
-References: [Apple: package resources](https://developer.apple.com/documentation/xcode/bundling-resources-with-a-swift-package), [Apple: layout direction](https://developer.apple.com/documentation/swiftui/layoutdirection).
-
 ## License
 
 MIT
